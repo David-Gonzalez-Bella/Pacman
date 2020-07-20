@@ -63,7 +63,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: AnimationWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -74,12 +74,12 @@ MonoBehaviour:
     height: 296
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 22}
   - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 38
+  controlID: 124
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,9 +322,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1644
+    x: 1403
     y: 73
-    width: 275
+    width: 516
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
@@ -487,9 +487,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.6170995, y: 1.7655535, z: -244.25424}
+    m_Target: {x: 18.988539, y: 12.2727375, z: -125.311615}
     speed: 2
-    m_Value: {x: -2.4532268, y: 1.568516, z: -244.13588}
+    m_Value: {x: 18.882133, y: 12.59809, z: -125.21237}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -539,9 +539,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 27.499166
+    m_Target: 26.359488
     speed: 2
-    m_Value: 26.314991
+    m_Value: 27.601557
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -595,15 +595,32 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: -7170119858637169631, guid: 77b202ca897fe114da2802998b6d9595, type: 2}
+    - {fileID: 2214130821993042063, guid: d022b5ef49390b8499059c18bba57f7c, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1.0877972
+    - e00: 0.89712906
       e01: 0
       e02: 0
-      e03: 206.0567
+      e03: 148.38289
       e10: 0
-      e11: 1.0877972
+      e11: 0.89712906
       e12: 0
-      e13: 82.67062
+      e13: 116.80219
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1.1336634
+      e01: 0
+      e02: 0
+      e03: 360.43213
+      e10: 0
+      e11: 1.1336634
+      e12: 0
+      e13: 41.480434
       e20: 0
       e21: 0
       e22: 1
@@ -613,10 +630,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 77b202ca897fe114da2802998b6d9595,
+  m_AnimatorController: {fileID: 9100000, guid: d022b5ef49390b8499059c18bba57f7c,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -7170119858637169631, guid: 77b202ca897fe114da2802998b6d9595,
+  - m_Target: {fileID: 2214130821993042063, guid: d022b5ef49390b8499059c18bba57f7c,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -658,7 +675,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 14620
+  m_LastSelectedObjectID: -37266
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -711,7 +728,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 9e390000
     m_LastClickedID: 14750
-    m_ExpandedIDs: 000000009039000000ca9a3b
+    m_ExpandedIDs: 00000000903900009639000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -766,7 +783,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000dc380000ce330000c834000012330000223500004a33000088350000b6350000000000007a3e0000863b0000e435000052390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -794,7 +811,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 57
   m_SkipHiddenPackages: 1
-  m_DirectoriesAreaWidth: 110
+  m_DirectoriesAreaWidth: 158
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -862,9 +879,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1c390000
-      m_LastClickedID: 14620
-      m_ExpandedIDs: 5efbffff1c390000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 5efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

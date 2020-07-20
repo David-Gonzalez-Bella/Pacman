@@ -18,12 +18,12 @@ public class PlayerMovement_ : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();   
+        anim = GetComponent<Animator>();
     }
 
     void Start()
     {
-        this.transform.position = new Vector2(-0.06f, -1.87f);
+        this.transform.position = new Vector3(14.5f, 14.0f, 0.0f);
         destination = this.transform.position;
     }
 
