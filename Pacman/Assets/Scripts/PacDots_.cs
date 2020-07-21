@@ -8,7 +8,9 @@ public class PacDots_ : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            Destroy(this.gameObject);
+            GameManager.sharedInstance.points += 100;
+            UIManager.sharedInstance.points.text = "SCORE: " + GameManager.sharedInstance.points.ToString();
+            Destroy(this.gameObject);  
         }
     }
 }
