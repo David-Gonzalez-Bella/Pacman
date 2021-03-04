@@ -1,2 +1,2 @@
 # Pacman
-A simple pacman game in unity
+A shit pacman game in unity
